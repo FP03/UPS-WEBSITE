@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./loginpage.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="loginmain">
+      <div class="logincontainer">
+        <div class="loginform">
+          <h2>Login</h2>
+        </div>
+        <form>
+          <div class="inputBox">
+            <input type="text" id="textInput" required="required" />
+            <span>Email</span>
+            <i class="bx bxs-envelope" id="envelopeIcon"></i>
+          </div>
+          <div class="inputBox">
+            <input type="password" id="passwordInput" required="required" />
+            <span>Password</span>
+            <i class="bx bx-show" id="eyeIcon"></i>
+          </div>
+          <div class="remember-alignment">
+            <div class="remember-forgot">
+              <label><input type="checkbox" />Remember Password</label>
+              <a href="#">Forgot Password?</a>
+            </div>
+          </div>
+          <div class="loginbutton">
+            <button class="btn" type="submit">Login</button>
+          </div>
+          <div class="loginregister">
+            <p>Don't have an account? <a href="#">Register?</a></p>
+          </div>
+        </form>
+        <hr />
+        <div class="loginIcon">
+          <div class="loginWithFacebook">
+            <a class="facebookIcon" href="www.facebook.com">
+              <i class="bx bxl-facebook-circle"></i>
+            </a>
+          </div>
+          <div class="loginWithGoogle">
+            <a class="googleIcon" href="www.google.com">
+              <i class="bx bxl-google"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="loginpage.js"></script>
+  </body>
+</html>
